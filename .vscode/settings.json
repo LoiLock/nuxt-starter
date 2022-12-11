@@ -1,0 +1,24 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false,
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+    "stylelint.packageManager": "yarn",
+    "stylelint.autoFixOnSave": true,
+    "stylelint.enable": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
+    "stylelint.validate": [
+      "css",
+      "postcss",
+      "scss",
+      "js",
+      "typescript",
+      "javascript",
+      "vue",
+    ],
+    "stylelint.config": null,
+}
+  
