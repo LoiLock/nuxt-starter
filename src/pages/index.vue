@@ -10,10 +10,9 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, ref } from 'vue';
+import { ref } from 'vue';
 
 const className = ref('cool-class');
-
 </script>
 
 <style lang="scss" scoped>
