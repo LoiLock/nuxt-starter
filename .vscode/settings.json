@@ -20,5 +20,8 @@
       "vue",
     ],
     "stylelint.config": null,
+    "cssvar.files": [".output/public/_nuxt/**/*.css"],
+    "cssvar.postcssSyntax": ["postcss-scss"],
+    "cssvar.disableSort": true,
 }
   

@@ -24,10 +24,10 @@ module.exports = {
       'ts-ignore': 'allow-with-description'
     }],
     '@typescript-eslint/camelcase': 'off',
-    '@typescript-eslint/explicit-function-return-type': ['warn', {
-      // allowExpressions is set to on because otherwise lazy Vue component imports get very tedious very quickly
-      allowExpressions: true
-    }],
+    // '@typescript-eslint/explicit-function-return-type': ['warn', {
+    //   // allowExpressions is set to on because otherwise lazy Vue component imports get very tedious very quickly
+    //   allowExpressions: true
+    // }],
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
@@ -67,9 +67,11 @@ module.exports = {
     'guard-for-in': 'error',
     radix: 'off',
 
-    indent: [
-      'error',
-      2,
+    // indent: 'off',
+
+    indent: 'off',
+
+    '@typescript-eslint/indent': ['error', 2,
       {
         SwitchCase: 1
       }
