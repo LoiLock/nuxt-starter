@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   imports: {
     autoImport: false
   },
+  hooks: {
+    'autoImports:sources': (sources: string[]) => sources.splice(0, sources.length),
+    'autoImports:dirs': (dirs: string[]) => dirs.splice(0, dirs.length),
+    // @ts-ignore: Works fine
+    'components:dirs': (dirs: string[]) => dirs.splice(0, dirs.length)
+  },
   typescript: {
     shim: false,
     typeCheck: true,
